@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Generated using sounddrill31/actions_generate_local_manifests -->
+
+    <!-- Remotes -->
+    <remote name="sounddrill31" fetch="https://github.com/sounddrill31" clone-depth="1" />
+    <remote name="xlightningxstar" fetch="https://github.com/xlightningxstar" clone-depth="1" />
+
+    <!-- Removals -->
+
+    <!-- Repos -->
+    <!-- Device -->
+    <project path="device/xiaomi/jasmine_sprout" name="android_device_xiaomi_jasmine_sprout" remote="sounddrill31" revision="lineage-21.0" />
+
+    <!-- Device - Common -->
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/jasmine_sprout" name="android_kernel_xiaomi_jasmine_sprout" remote="xlightningxstar" revision="fourteen" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/jasmine_sprout" name="android_vendor_xiaomi_jasmine_sprout" remote="xlightningxstar" revision="lineage-21.0" />
+
+    <!-- Vendor - Common -->
+
+</manifest>
